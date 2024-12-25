@@ -1,0 +1,262 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="mycss/style.css" rel="stylesheet">
+<style>
+        .img-b {
+            border: 2px solid yellow; /* Желтая граница */
+            text-align: center; /* Центрирование текста */
+            margin-bottom: 20px; /* Отступ снизу */
+        }
+        .img-container img {
+            width: 100%; /* Ширина изображения 100% от родительского контейнера */
+            height: auto; /* Автоматическая высота для сохранения пропорций */
+        }
+        .caption {
+            color: white; /* Белый текст */
+            padding: 10px; /* Отступы вокруг текста */
+        }
+</style>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Картинка 1" class=""></a>
+	<div class="position-absolute end-0">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">BUY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="category.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+        <div class="d-flex align-items-center">
+            <button class="btn btn-yellow mr-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Book a consulation</button>
+            <span class="text-white">+7 (999) 123-45-67</span>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Leave your contacts</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sent</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+    </div>
+    </div>
+</nav>
+</header>
+
+<div class="container">
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+         <div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/kar1.png" alt="Image 1">
+			<div class="caption img-b">Текст под картинкой</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar2.png" alt="Image 2">
+			<div class="caption img-b">Текст под картинкой</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar3.png" alt="Image 3">
+			<div class="caption img-b">Текст под картинкой</div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/kar3.png" alt="Image 1">
+			<div class="caption img-b">Текст под картинкой</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar1.png" alt="Image 2">
+			<div class="caption img-b">Текст под картинкой</div>
+      </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar2.png" alt="Image 3">
+			<div class="caption img-b">Текст под картинкой</div>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/kar2.png" alt="Image 1">
+            <div class="caption img-b">Текст под картинкой</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar3.png" alt="Image 2">
+            <div class="caption img-b">Текст под картинкой</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/kar1.png" alt="Image 3">
+            <div class="caption img-b">Текст под картинкой</div>
+        </div>
+    </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 1">
+            <div class="caption img-b">Текст под картинкой 1</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 2">
+            <div class="caption img-b">Текст под картинкой 2</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 3">
+            <div class="caption img-b">Текст под картинкой 3</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 4">
+            <div class="caption img-b">Текст под картинкой 4</div>
+        </div>
+    </div>
+<div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 1">
+            <div class="caption img-b">Текст под картинкой 5</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 2">
+            <div class="caption img-b">Текст под картинкой 6</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 3">
+            <div class="caption img-b">Текст под картинкой 7</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 4">
+            <div class="caption img-b">Текст под картинкой 8</div>
+        </div>
+    </div>
+<div class="row">
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 1">
+            <div class="caption img-b">Текст под картинкой 9</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 2">
+            <div class="caption img-b">Текст под картинкой 10</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 3">
+            <div class="caption img-b">Текст под картинкой 11</div>
+        </div>
+        <div class="col-md-3 img-container">
+            <img src="img/place1.png" alt="Image 4">
+            <div class="caption img-b">Текст под картинкой 12</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+<div class="container-fluid py-5">
+<div class="row link-secondary">
+<div class="col-lg-2 mb-3">
+<ul class="list-unstyled small text-muted">
+<li class="mb-2"><a href="blog.html" target="_blank" rel="license noopener">Buy</li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">&emsp;</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">House in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartments in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+</ul>
+</div>
+<div class="col-lg-2 mb-3">
+<ul class="list-unstyled small text-muted">
+<li class="mb-2"><a href="services.html" target="_blank" rel="license noopener">Services</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">&emsp;</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">House in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartments in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+</ul>
+</div>
+<div class="col-lg-2 mb-3">
+<ul class="list-unstyled small text-muted">
+<li class="mb-2">Information</li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">&emsp;</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">House in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartments in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+</ul>
+</div>
+<div class="col-lg-2 mb-3">
+<ul class="list-unstyled small text-muted">
+<li class="mb-2">About company</li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">&emsp;</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">House in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartments in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+</ul>
+</div>
+<div class="col-lg-2 mb-3">
+<ul class="list-unstyled small text-muted">
+<li class="mb-2">Contact</li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">&emsp;</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">House in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartments in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+<li class="mb-2"><a href="#" target="_blank" rel="license noopener">Apartment in Dubai</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="myjs/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+background-color: #262626;
+}
+.bg {
+background-image: url("../img/bg.png");
+background-size: cover; /*сохранение пропорций*/
+}
+.bg2 {
+background-image: url("../img/bgser.png");
+background-size: cover; /*сохранение пропорций*/
+}
+.darkgray {
+background-color: #575757;
+}
+section#intro-header .wrap-headline {
+position: center; /*позиционирование фона*/
+padding-top: 15%;
+padding-bottom: 25%;
+color: gray;
+padding-left: 17%;
+}
+h2 {
+font-size: 60px;
+}
+section#intro-header hl, section#intro-header h2 {
+color: gray;
+}
+section#intro-header h1 {
+font-size: 60px;
+}
+section#intro-header h2 {
+font-size: 50px;
+}
+.w {
+color: white;
+}
+.w2 {
+color: white;
+font-size: 14px;
+}
+.bord {
+margin: 20px;
+}
+p {
+font-size: 25px;
+}
+.conter {
+	min-height: 400px;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: white; /* Цвет текста ссылок */
+}
+.btn-yellow {
+background-color: yellow; /* Цвет кнопки */
+color: black; /* Цвет текста кнопки */
+}
+.contactus {
+position: center; /*позиционирование фона*/
+padding-top: 15%;
+padding-bottom: 15%;
+color: gray;
+padding-left: 10%;
+background-image: url("../img/contactus.png");
+background-size: cover; /*сохранение пропорций*/
+}
+.square-image {
+	width: 400px; /* Ширина квадратной картинки */
+    height: 400px; /* Высота квадратной картинки */
+    object-fit: cover; /* Сохранение пропорций изображения */
+        }
+.text-block {
+    width: 400px; /* Ширина текстового блока */
+    height: 400px; /* Высота текстового блока */
+    background-color: gray; /* Цвет фона блока */
+    padding: 40px; /* Отступы внутри блока */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vid {
+	padding: 20px;
+	width: 600px;
+    height: 270px;
+}
+.toggle-icon {
+    transition: transform 0.3s;
+}
+.collapsed .toggle-icon {
+    transform: rotate(90deg);
+}
